@@ -1,11 +1,23 @@
 <!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8"/>
     <title>Quad Team Messaging App</title>
+    <link rel="stylesheet" type="text/css" href="app.css" media="screen"/>
+  </head>
+  <body>
+    <div class="chat">
+      <section class="main">
+        <div id="message-list" class="message-list"></div>
+        <div class="message-form">
+          <div class="message-command">
+            <span id="chat-indicator">chat$</span>
+            <input id="chat-input" class="input" name="input"/>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <script type="application/javascript" src="streaming.js"></script>
-</head>
-<body>
-<div id="container"></div>
-</body>
+  </body>
 </html>
