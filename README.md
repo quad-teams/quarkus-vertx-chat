@@ -1,5 +1,7 @@
 # quarkus-vertx-chat
-A rudimentary messaging application showcasing Quarkus, Vert.x, Reactive Streams and server-sent events (SSE)
+A rudimentary messaging application showcasing Quarkus, Vert.x, Reactive Streams and server-sent events (SSE).
+
+For some more backround be sure to read the associated [article](https://quad.team/blog/messaging-with-quarkus-and-vertx).
 
 ## Highlights
 ### Creating this project
