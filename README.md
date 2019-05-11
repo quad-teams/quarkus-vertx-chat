@@ -9,8 +9,8 @@ If you want to start this project from scratch you can like so:
 
 ```bash
 mvn io.quarkus:quarkus-maven-plugin:0.14.0:create \
-    -DprojectGroupId=org.acme \
-    -DprojectArtifactId=vertx-quickstart \
+    -DprojectGroupId=team.quad \
+    -DprojectArtifactId=quarkus-vertx-chat \
     -Dextensions="hibernate-validator, resteasy-jsonb, smallrye-openapi, vertx"
 ```
 
@@ -18,13 +18,14 @@ Alternatively, extensions can be added one by one after the base project is crea
 
 ```bash
 mvn io.quarkus:quarkus-maven-plugin:0.14.0:create \
-    -DprojectGroupId=org.acme \
-    -DprojectArtifactId=vertx-quickstart
+    -DprojectGroupId=team.quad \
+    -DprojectArtifactId=quarkus-vertx-chat
 ```
 
 then
 
 ```bash
+cd quarkus-vertx-chat
 ./mvnw quarkus:add-extension -Dextensions=resteasy-jsonb
 ./mvnw quarkus:add-extension -Dextensions=hibernate-validator
 ./mvnw quarkus:add-extension -Dextensions="smallrye-openapi"
